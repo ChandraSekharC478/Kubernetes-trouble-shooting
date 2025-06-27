@@ -1,0 +1,71 @@
+# === General ===
+*.log
+*.out
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+Pipfile.lock
+
+# === Docker ===
+.dockerignore
+docker-compose.override.yml
+docker-compose.local.yml
+
+# === Kubernetes ===
+*.yaml~  # temp or backup files
+*.yml~ 
+k8s-temp/
+*.kubeconfig
+
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# === Ansible ===
+*.retry
+*.tar.gz
+inventory.ini
+host_vars/
+group_vars/
+ansible.log
+
+# === Helm ===
+charts/
+*.tgz
+values.local.yaml
+
+# === Cloud config ===
+*.pem
+*.key
+*.crt
+*.csr
+*.pub
+credentials/
+.aws/
+.gcloud/
+azure.json
+secrets.yml
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === OS/System files ===
+*.sublime-workspace
+*.sublime-project
