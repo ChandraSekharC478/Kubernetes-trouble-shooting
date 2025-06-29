@@ -48,7 +48,7 @@ Each folder contains a `README.md` with full instructions, commands, and YAML ma
 
 ## 🧑‍💻 Author
 **Chandrasekhar**  
-Senior System Engineer | Frontend & DevOps Practitioner
+Senior System Engineer | Devops Engineer
 
 ---
 
